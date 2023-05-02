@@ -1,0 +1,119 @@
+/* Set some global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #d9cfcf;
+  background-color:rgb(178, 211, 125);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style the main content */
+main {
+  margin-top: 40px;
+}
+
+#blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.blog-post {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.505);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  /* width: 48%; */
+}
+
+
+.blog-post h2 {
+  margin-top: 0;
+}
+
+.blog-post .author {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.blog-post .content {
+  line-height: 1.5;
+}
+
+#add-post {
+  margin-top: 50px;
+}
+
+#add-post label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#add-post input,
+#add-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+#add-post button[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+#add-post button[type="submit"]:hover {
+    background-color:rgb(178, 211, 125);
+    color: #333;
+}
